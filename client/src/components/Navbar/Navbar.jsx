@@ -59,16 +59,7 @@ const Navbar = () => {
                         </li>
                     </Link>
                     </li>
-                    <Link to='/register'>
-                        <li>
-                            <p>Registrarse</p>
-                        </li>
-                    </Link>
-                    <Link to='/login'>
-                        <li>
-                            <p>Cerrar Sesion</p>
-                        </li>
-                    </Link>
+                    
                     {user ? (
                         <>
                             <li onClick={handleClick} style={{ cursor: 'pointer' }}>

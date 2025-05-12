@@ -120,7 +120,7 @@ const Store = () => {
             setTotalPurchase(totalAmount);
             setCart([]);
         } else {
-            window.location.href = 'https://api.whatsapp.com/send?phone=543816832948&text=Hola,%20quiero%20realizar%20una%20compra%20en%20tu%20tienda.'; // Cambiar el número de teléfono
+            window.location.href = 'https://api.whatsapp.com/send?phone=5493815697888&text=Hola,%20quiero%20realizar%20una%20compra%20en%20tu%20tienda.'; // Cambiar el número de teléfono
         }
     };
 

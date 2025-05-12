@@ -30,7 +30,7 @@ const Home = () => {
             A través de movimientos que requieren mantener una tensión durante cierto tiempo, el fitness
             ayuda a trabajar la fuerza muscular y mejorar la condición física.
           </p>
-          <img src="https://scontent.faep7-1.fna.fbcdn.net/v/t39.30808-6/278871359_280713160944577_5009160819087147071_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=833d8c&_nc_ohc=pbIdpbxEv6AQ7kNvgHGK7eF&_nc_ht=scontent.faep7-1.fna&oh=00_AYDwhC8HbEqQ-mTKabOVieAKdwK2Ueo81Lhp1O8ZIRX-Sw&oe=6682E87D" alt="Training Tips" />
+          <img src="./fitnes.png" alt="Training Tips" />
                 </section>
                 <section className="infoSection">
                 <h2>Beneficios del Fitness</h2>
@@ -41,12 +41,12 @@ const Home = () => {
             Mejora la salud mental y el estado de ánimo<br></br>
             Reduce el riesgo de enfermedades crónicas
           </ul>
-                    <img src="https://scontent.faep7-1.fna.fbcdn.net/v/t1.6435-9/49326579_1146212112207828_2841575518657052672_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=0327a3&_nc_ohc=1wEw_OqeTUMQ7kNvgG7EoR8&_nc_ht=scontent.faep7-1.fna&oh=00_AYAo1KUldf3rK7DKyP_6z7vTqWzpz9wphlvFuUl5yudFdA&oe=66A46001" alt="Training Tips" />
+                    <img src="./beneficios.jpg" alt="Training Tips" />
                 </section>
                 <section className="infoSection" id='ult'>
                     <h2>Nutrición Saludable</h2>
                     <p>Una dieta balanceada es crucial para alcanzar tus metas fitness. Asegúrate de incluir proteínas, carbohidratos y grasas saludables en tu dieta.</p>
-                    <img src="https://www.tupediatraonline.com/consultas-frecuentes/wp-content/uploads/2017/03/alimentaci%C3%B3n-infantil-h%C3%A1bitos-saludables-actividad-f%C3%ADsica-sobrepeso-en-ni%C3%B1os-crecimiento-infantil-percentiles-ni%C3%B1os-salud-infantil.jpg" alt="Healthy Nutrition" />
+                    <img src="./alimentacion.jpg" alt="Healthy Nutrition" />
                 </section>
             </div>
             <Footer />

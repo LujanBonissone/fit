@@ -1,7 +1,5 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Landing from "./pages/Landing/Landing";
-import Login from "./pages/Login/Login";
-import Register from "./pages/Register/Register";
 import Entries from "./pages/Entry/Entries";
 import Routines from "./pages/Routine/Routines";
 import { useContext } from "react";
@@ -18,7 +16,7 @@ function App() {
 
     const ProtectedRoute = ({ children }) => {
         if (!user) {
-            return <Login title="Crear login" />;
+            return <Home title="" />;
         } else {
             return children;
         }
@@ -29,8 +27,6 @@ function App() {
             <Routes>
                 <Route path="/" element={<Landing />} />
                 <Route path="/home" element={<Home />} />
-                <Route path="/login" element={<Login />} />
-                <Route path="/register" element={<Register />} />
                 <Route path="/entries" element={<ProtectedRoute><Entries /></ProtectedRoute>} />
                 <Route path="/meals" element={<ProtectedRoute><Meal /></ProtectedRoute>} />
                 <Route path="/routines" element={<ProtectedRoute><Routines /></ProtectedRoute>} />

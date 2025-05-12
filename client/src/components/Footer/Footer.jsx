@@ -14,7 +14,7 @@ const Footer = () => {
                 
             </div>
             <div className='social-icons'>
-                <a href='https://api.whatsapp.com/send?phone=543816080780&text=Hola,%20tengo%20una%20consulta.' target='_blank' rel='noopener noreferrer'>
+                <a href='https://api.whatsapp.com/send?phone=5493815697888&text=Hola,%20tengo%20una%20consulta.' target='_blank' rel='noopener noreferrer'>
                     <FaWhatsapp />
                 </a>
                 <a href='https://www.instagram.com/@tomassvalera' target='_blank' rel='noopener noreferrer'>
