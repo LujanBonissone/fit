@@ -17,7 +17,7 @@ const Footer = () => {
                 <a href='https://api.whatsapp.com/send?phone=5493815697888&text=Hola,%20tengo%20una%20consulta.' target='_blank' rel='noopener noreferrer'>
                     <FaWhatsapp />
                 </a>
-                <a href='https://www.instagram.com/@tomassvalera' target='_blank' rel='noopener noreferrer'>
+                <a href='https://www.instagram.com/@lubonissone_22' target='_blank' rel='noopener noreferrer'>
                     <FaInstagram />
                 </a>
             </div>
